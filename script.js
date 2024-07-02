@@ -1,7 +1,7 @@
 "use strict";
 const images = document.querySelectorAll(".swipe");
-const leftBtn = document.querySelector("#left-btn");
-const rightBtn = document.querySelector("#right-btn");
+const leftBtn = document.querySelector(".left-btn");
+const rightBtn = document.querySelector(".right-btn");
 const indicEls = document.querySelectorAll(".indicator");
 // console.log(images);
 let currentImg = 0;
